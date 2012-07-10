@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+/* variables */
+
+$grayMediumLight: #eaeaea;
+
 /* universal */
 
 html {
@@ -77,7 +81,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 3px solid $grayMediumLight;
   color: $white;
 
   a {
